@@ -16,6 +16,7 @@
 		D9B82C4D2587AF8A004F90AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B82C4C2587AF8A004F90AC /* Assets.xcassets */; };
 		D9B82C502587AF8B004F90AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B82C4E2587AF8B004F90AC /* LaunchScreen.storyboard */; };
 		D9B82C592588766E004F90AC /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B82C582588766E004F90AC /* PageCell.swift */; };
+		D9C9B50525AB4EDA003E15F9 /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9B50425AB4EDA003E15F9 /* LoginCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D9B82C4F2587AF8B004F90AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9B82C512587AF8B004F90AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9B82C582588766E004F90AC /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		D9C9B50425AB4EDA003E15F9 /* LoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				D9B82C582588766E004F90AC /* PageCell.swift */,
 				D96B72922588BF5300D38DDA /* Page.swift */,
 				D971A82C25A37760006F264E /* Extensions.swift */,
+				D9C9B50425AB4EDA003E15F9 /* LoginCell.swift */,
 			);
 			path = "Onboarding Practice";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9B82C482587AF83004F90AC /* ViewController.swift in Sources */,
+				D9C9B50525AB4EDA003E15F9 /* LoginCell.swift in Sources */,
 				D971A82D25A37760006F264E /* Extensions.swift in Sources */,
 				D9B82C442587AF83004F90AC /* AppDelegate.swift in Sources */,
 				D9B82C592588766E004F90AC /* PageCell.swift in Sources */,
