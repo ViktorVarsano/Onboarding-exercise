@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+class LoginController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
 
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -129,7 +129,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             self.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
     }
     
-
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         view.endEditing(true)
     }
@@ -160,8 +159,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         skipButtonTopAnchor?.constant = -40
     }
     
-    
-
         fileprivate func registerCells() {
             collectionView.register(PageCell.self, forCellWithReuseIdentifier: cellId)
             collectionView.register(LoginCell.self, forCellWithReuseIdentifier: loginCellId)
